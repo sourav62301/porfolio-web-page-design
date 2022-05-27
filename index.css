@@ -8,7 +8,7 @@ body{
   background-color: whitesmoke;
   width: 758px;
   margin: 0 auto;
-  max-width: 100%;
+/*   max-width: 100%; */
 }
 
 nav {
