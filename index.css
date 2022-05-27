@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  z-index: 0;
+  background: transparent;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+
+li {
+  padding: 10px 30px;
+  margin: 2px auto;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+section{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  /* margin-bottom: 50px;
+  margin-left: 50px; */
+
+  margin: 5px 4rem;
+  padding: 5px;
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.h1{
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 8px auto;
+}
+
+section > aside > p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: small;
+}
+
+section > aside > button{
+  margin-top: 8px;
+  padding: 5px 16px;
+  font-weight: bold;
+  background-color: rgb(110, 174, 15);
+  color: white;
+  border-style: none;
+  font-size: small;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.img1{
+  margin-left: 0;
+  width: 40%;
+  height: 25%;
+}
+
+
+
+.container1 > aside {
+    width: 40%;
+}
+
+.green-box {
+  background-color: rgb(138, 204, 6);
+  position: relative;
+  height: 220px;
+  width: 140px;
+  left: 100px;
+  top: -100px;
+  z-index: -1;
+}
+
+.green-box img {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  top: 110px;
+  left: 30px;
+}
+
+
+
+.hustle {
+  display: flex;
+  /* flex-wrap: wrap; */
+  max-width: 92rem;
+  margin: 0;
+  /* justify-content: space-between; */
+  position: relative;
+}
+
+.bolder {
+  margin: 4px;
+  font-weight: bolder;
+}
+
+.educ-period {
+  margin: 3px;
+  margin-top: 10px;
+  color: rgb(138, 204, 6);
+}
+
+.educ-para {
+  margin: 5px;
+}
+
+.text-head {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  padding: 0 4rem;
+  margin: 0 1rem;
+}
+
+.img2 {
+  width: 18rem;
+  height: 12rem;
+  padding: 0;
+  float: left;
+  margin: 0;
+}
+
+
+
+.education {
+  width: 40%;
+  margin-right: 20%;
+}
+
+.work{
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.work > p {
+  text-align: center;
+  width: 100%;
+  font-size: small;
+  margin: 10px auto;
+  margin-bottom: 14px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  padding-top: 12px;
+}
+
+.flex > div {
+  width: 30%;
+  margin: 12px;
+  padding: 25px;
+}
+
+.extra-dark{
+  font-weight: bold;
+  margin: 2px;
+  padding: 1px;
+}
+
+.div-text{
+  margin: 2px;
+  padding: 2px;
+  font-size: small;
+  font-weight: 500;
+}
+
+.see-project{
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(138, 204, 6);
+  padding: 3px;
+}
+
+.flex > div > img{
+  z-index: 1;
+}
+
+.green-img{
+  width: 20px;
+  height: 35px;
+  background-color: rgb(84, 134, 9);
+  z-index: 10;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: -1%;
+}
+
+
+.blogs {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.blank{
+  height: 3px;
+  width: 20px;
+  background-color: rgb(118, 159, 21);
+}
+
+.blog {
+  width: 40%;
+  margin: 10px 0;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog > p{
+  font-size: 9px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.proud {
+  display: inline-block;
+  width: 30%;
+  background-color: rgb(109, 166, 22) ;
+  padding: 45px 23px;
+}
+
+.proud > p{
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+
+.side-hustle {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-hustle > div{
+  margin-left: 13%;
+  padding: 12px;
+}
+
+.side-hustle > div > p{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(107, 171, 12);
+}
+
+.side-hustle > p{
+  margin-left: 12%;
+  margin-right: 10px;
+  padding: 13px;
+  font-size: 10px;
+}
+
+
+.hustle{
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+
+
+.img-section {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, auto));
+}
+
+.a {
+  justify-self: end;
+  grid-row: 1/3;
+  grid-column: 1/2;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 7px;
+}
+
+.b {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 10rem;
+  margin-top: -5px;
+}
+.c {
+  justify-self: end;
+  grid-row: 3/4;
+  grid-column: 1/2;
+  width: 10rem;
+  width: 100%;
+}
+.d {
+  width: 10rem;
+}
+.e {
+  width: 10rem;
+  height: 10rem;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  
+}
+
+.gmail-contact{
+  background-color: rgb(93, 145, 14);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  width: 33%;
+  height: 8rem;
+  padding: auto;
+  align-items: center;
+
+}
+
+.gmail-contact > p{
+  padding: 30px 35px;
+  margin-top: 0px;
+}
+
+.gmail-contact > p > a{
+  font-size: 9px;
+  color: white;
+  font-weight: 100;
+  margin-top: 0;
+  margin: 3%;
+}
+
+.rights{
+  margin-top: 12%;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
